@@ -1,0 +1,17 @@
+ 
+  .indexheader {
+    font-size: 450%;
+ 	font-weight: bold;  
+  }
+  
+  .lessonImage{
+  	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 510px;
+	height: 350px;
+}
+
+.lessonImage:hover {
+	box-shadow: 0 0 2px 1px #BA5624;
+}

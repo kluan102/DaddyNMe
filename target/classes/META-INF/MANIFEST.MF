@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: final-project
+Implementation-Version: 0.1.0
+Built-By: Luan
+Implementation-Vendor-Id: com.claim
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/final-project
+Created-By: Maven Integration for Eclipse
+
