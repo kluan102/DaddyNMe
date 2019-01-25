@@ -1,0 +1,122 @@
+.indexheader {
+	font-size: 450%;
+	font-weight: bold;
+}
+
+.lessonImage {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 810px;
+	height: 450px;
+}
+
+.lessonImage:hover {
+	box-shadow: 0 0 2px 1px #BA5624;
+}
+
+.extend {
+	width: 100% !important;
+}
+
+.form-group {
+	width: 30%;
+}
+
+.modal1 {
+	width: 50% !important;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.selection {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+.postSubmit {
+	padding: 12px 20px;
+	cursor: pointer;
+	float: right;
+}
+
+.postLabel {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+.inputText {
+	padding: 12px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+.container3 {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.col-25, .col-75, .inputText {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+.signout:link, .signout:visited {
+	color: #38525a;
+}
+
+.signout:hover {
+	color: #ff0000;
+}
+
+.signout:active {
+	color: 009933;
+}
+
+.welcome {
+	padding: 2px;
+}
+
+.registerImages {
+
+	margin-top: 30%;
+	
+
+}
+.otherTables{
+	border: none !important;
+}
+
+.registrationInput{
+	width: 420px !important;
+}
+
