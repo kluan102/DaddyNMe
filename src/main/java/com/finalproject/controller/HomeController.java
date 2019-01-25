@@ -56,6 +56,9 @@ public class HomeController {
 		return new ModelAndView("index", "userAccount", new UserAccount());
 	}
 
+	
+	
+	
 	@RequestMapping(value = "/LogInUser", method = RequestMethod.POST)
 	public ModelAndView signInUser(@ModelAttribute("user") UserAccount userAccount, HttpSession session) {
 		this.loggedInUser = userAccountService.login(userAccount.getEmail(), userAccount.getPassword());
